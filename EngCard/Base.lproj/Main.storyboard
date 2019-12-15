@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EngCard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add word" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DT3-y1-jwZ">
+                                <rect key="frame" x="145.5" y="139" width="123.5" height="36"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SWE-OZ-iOF">
+                                <rect key="frame" x="231" y="233" width="163" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zpp-97-qzO">
+                                <rect key="frame" x="231" y="283" width="163" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English Significate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCa-vZ-tfK">
+                                <rect key="frame" x="20" y="237" width="175" height="27"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spanish Significate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bhs-oD-4mT">
+                                <rect key="frame" x="20" y="290" width="182" height="27"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MmK-G3-ekl">
+                                <rect key="frame" x="20" y="374" width="374" height="32"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Guardar" image="square.and.arrow.up.on.square.fill" catalog="system">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="guardar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MvT-Ce-S2h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SWE-OZ-iOF" firstAttribute="leading" secondItem="RCa-vZ-tfK" secondAttribute="trailing" constant="36" id="01A-TA-FZ8"/>
+                            <constraint firstItem="RCa-vZ-tfK" firstAttribute="top" secondItem="DT3-y1-jwZ" secondAttribute="bottom" constant="62" id="1V9-LH-VTQ"/>
+                            <constraint firstItem="zpp-97-qzO" firstAttribute="top" secondItem="SWE-OZ-iOF" secondAttribute="bottom" constant="16" id="20q-2C-PyM"/>
+                            <constraint firstItem="Bhs-oD-4mT" firstAttribute="top" secondItem="RCa-vZ-tfK" secondAttribute="bottom" constant="26" id="4OX-nS-BQz"/>
+                            <constraint firstItem="RCa-vZ-tfK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4hg-wA-Daz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MmK-G3-ekl" secondAttribute="bottom" constant="456" id="7b1-6X-YMc"/>
+                            <constraint firstItem="zpp-97-qzO" firstAttribute="leading" secondItem="Bhs-oD-4mT" secondAttribute="trailing" constant="29" id="AIC-0j-TKi"/>
+                            <constraint firstItem="MmK-G3-ekl" firstAttribute="top" secondItem="Bhs-oD-4mT" secondAttribute="bottom" constant="57" id="KW6-8C-LGN"/>
+                            <constraint firstItem="zpp-97-qzO" firstAttribute="top" secondItem="SWE-OZ-iOF" secondAttribute="bottom" constant="16" id="RTF-j8-vAZ"/>
+                            <constraint firstItem="DT3-y1-jwZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="95" id="ReT-Vj-vnl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SWE-OZ-iOF" secondAttribute="trailing" constant="20" id="RqE-yz-iOA"/>
+                            <constraint firstItem="Bhs-oD-4mT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="WYl-fq-qdQ"/>
+                            <constraint firstItem="MmK-G3-ekl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="WbU-ps-6tr"/>
+                            <constraint firstItem="zpp-97-qzO" firstAttribute="leading" secondItem="Bhs-oD-4mT" secondAttribute="trailing" constant="29" id="Y3r-BR-IJ7"/>
+                            <constraint firstItem="DT3-y1-jwZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="atK-oz-G0f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zpp-97-qzO" secondAttribute="trailing" constant="20" id="b9v-ij-EMw"/>
+                            <constraint firstItem="MmK-G3-ekl" firstAttribute="top" secondItem="zpp-97-qzO" secondAttribute="bottom" constant="57" id="bvf-ue-o8T"/>
+                            <constraint firstItem="Bhs-oD-4mT" firstAttribute="top" secondItem="RCa-vZ-tfK" secondAttribute="bottom" constant="26" id="gaZ-94-BtB"/>
+                            <constraint firstItem="SWE-OZ-iOF" firstAttribute="leading" secondItem="RCa-vZ-tfK" secondAttribute="trailing" constant="36" id="izE-QD-Gbf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MmK-G3-ekl" secondAttribute="trailing" constant="20" id="w9V-fn-GPa"/>
+                            <constraint firstItem="SWE-OZ-iOF" firstAttribute="top" secondItem="DT3-y1-jwZ" secondAttribute="bottom" constant="58" id="xSB-0Z-pLH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="engText" destination="8bC-Xf-vdC" id="623-Um-0yO"/>
+                        <outlet property="espText" destination="8bC-Xf-vdC" id="qoq-kd-6Se"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="71.651785714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="square.and.arrow.up.on.square.fill" catalog="system" width="58" height="64"/>
+    </resources>
+</document>

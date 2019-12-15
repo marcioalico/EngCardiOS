@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>13690621004-85i9nq80r9tocjf80htck0qjnlbfmiq8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.13690621004-85i9nq80r9tocjf80htck0qjnlbfmiq8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBSuTFSVU0OGEU09aYsSQFnNrHxoX6yLIw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>13690621004</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.applica.EngCard</string>
+	<key>PROJECT_ID</key>
+	<string>engcard-2af7a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>engcard-2af7a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:13690621004:ios:c486723525b38e8062f8e9</string>
+	<key>DATABASE_URL</key>
+	<string>https://engcard-2af7a.firebaseio.com</string>
+</dict>
+</plist>

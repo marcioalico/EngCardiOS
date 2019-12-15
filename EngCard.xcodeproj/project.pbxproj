@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77BBE8CF26423BFE7D79CAB8 /* Pods_EngCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF019063BD0B5C8D0894405 /* Pods_EngCard.framework */; };
+		DC7578E023A5E24E007671DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7578DF23A5E24E007671DC /* AppDelegate.swift */; };
+		DC7578E223A5E24E007671DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7578E123A5E24E007671DC /* SceneDelegate.swift */; };
+		DC7578E423A5E24E007671DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7578E323A5E24E007671DC /* ViewController.swift */; };
+		DC7578E723A5E24E007671DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7578E523A5E24E007671DC /* Main.storyboard */; };
+		DC7578E923A5E252007671DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7578E823A5E252007671DC /* Assets.xcassets */; };
+		DC7578EC23A5E252007671DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7578EA23A5E252007671DC /* LaunchScreen.storyboard */; };
+		DC7578F423A5E365007671DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC7578F323A5E365007671DC /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4AC94F5B426C7048B753B13 /* Pods-EngCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngCard.debug.xcconfig"; path = "Target Support Files/Pods-EngCard/Pods-EngCard.debug.xcconfig"; sourceTree = "<group>"; };
+		BEAF6968DFFD088E1F302D88 /* Pods-EngCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngCard.release.xcconfig"; path = "Target Support Files/Pods-EngCard/Pods-EngCard.release.xcconfig"; sourceTree = "<group>"; };
+		DC7578DC23A5E24E007671DC /* EngCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7578DF23A5E24E007671DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC7578E123A5E24E007671DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC7578E323A5E24E007671DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC7578E623A5E24E007671DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC7578E823A5E252007671DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC7578EB23A5E252007671DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC7578ED23A5E252007671DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7578F323A5E365007671DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FCF019063BD0B5C8D0894405 /* Pods_EngCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EngCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC7578D923A5E24E007671DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BBE8CF26423BFE7D79CAB8 /* Pods_EngCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3448DE4D1708C234D88B377 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4AC94F5B426C7048B753B13 /* Pods-EngCard.debug.xcconfig */,
+				BEAF6968DFFD088E1F302D88 /* Pods-EngCard.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC7578D323A5E24E007671DC = {
+			isa = PBXGroup;
+			children = (
+				DC7578DE23A5E24E007671DC /* EngCard */,
+				DC7578DD23A5E24E007671DC /* Products */,
+				D3448DE4D1708C234D88B377 /* Pods */,
+				F650F75984660776C2A5C3DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC7578DD23A5E24E007671DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC7578DC23A5E24E007671DC /* EngCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC7578DE23A5E24E007671DC /* EngCard */ = {
+			isa = PBXGroup;
+			children = (
+				DC7578DF23A5E24E007671DC /* AppDelegate.swift */,
+				DC7578E123A5E24E007671DC /* SceneDelegate.swift */,
+				DC7578E323A5E24E007671DC /* ViewController.swift */,
+				DC7578E523A5E24E007671DC /* Main.storyboard */,
+				DC7578E823A5E252007671DC /* Assets.xcassets */,
+				DC7578EA23A5E252007671DC /* LaunchScreen.storyboard */,
+				DC7578ED23A5E252007671DC /* Info.plist */,
+				DC7578F323A5E365007671DC /* GoogleService-Info.plist */,
+			);
+			path = EngCard;
+			sourceTree = "<group>";
+		};
+		F650F75984660776C2A5C3DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCF019063BD0B5C8D0894405 /* Pods_EngCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC7578DB23A5E24E007671DC /* EngCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7578F023A5E252007671DC /* Build configuration list for PBXNativeTarget "EngCard" */;
+			buildPhases = (
+				71DAEEA4C6C87715C907FD38 /* [CP] Check Pods Manifest.lock */,
+				DC7578D823A5E24E007671DC /* Sources */,
+				DC7578D923A5E24E007671DC /* Frameworks */,
+				DC7578DA23A5E24E007671DC /* Resources */,
+				F272393677CE2D0476A66CA7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EngCard;
+			productName = EngCard;
+			productReference = DC7578DC23A5E24E007671DC /* EngCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC7578D423A5E24E007671DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Applica;
+				TargetAttributes = {
+					DC7578DB23A5E24E007671DC = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = DC7578D723A5E24E007671DC /* Build configuration list for PBXProject "EngCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC7578D323A5E24E007671DC;
+			productRefGroup = DC7578DD23A5E24E007671DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC7578DB23A5E24E007671DC /* EngCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC7578DA23A5E24E007671DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7578EC23A5E252007671DC /* LaunchScreen.storyboard in Resources */,
+				DC7578F423A5E365007671DC /* GoogleService-Info.plist in Resources */,
+				DC7578E923A5E252007671DC /* Assets.xcassets in Resources */,
+				DC7578E723A5E24E007671DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71DAEEA4C6C87715C907FD38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EngCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F272393677CE2D0476A66CA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EngCard/Pods-EngCard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EngCard/Pods-EngCard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EngCard/Pods-EngCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC7578D823A5E24E007671DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7578E423A5E24E007671DC /* ViewController.swift in Sources */,
+				DC7578E023A5E24E007671DC /* AppDelegate.swift in Sources */,
+				DC7578E223A5E24E007671DC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC7578E523A5E24E007671DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7578E623A5E24E007671DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC7578EA23A5E252007671DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7578EB23A5E252007671DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC7578EE23A5E252007671DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC7578EF23A5E252007671DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC7578F123A5E252007671DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AC94F5B426C7048B753B13 /* Pods-EngCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DGA8QBS2D;
+				INFOPLIST_FILE = EngCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applica.EngCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC7578F223A5E252007671DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEAF6968DFFD088E1F302D88 /* Pods-EngCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DGA8QBS2D;
+				INFOPLIST_FILE = EngCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applica.EngCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC7578D723A5E24E007671DC /* Build configuration list for PBXProject "EngCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7578EE23A5E252007671DC /* Debug */,
+				DC7578EF23A5E252007671DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7578F023A5E252007671DC /* Build configuration list for PBXNativeTarget "EngCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7578F123A5E252007671DC /* Debug */,
+				DC7578F223A5E252007671DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC7578D423A5E24E007671DC /* Project object */;
+}
